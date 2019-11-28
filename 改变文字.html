@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>test</title>
+		<style type="text/css">body,img,div{display:block;text-align:center;}</style>
+		<script>
+		var flag=true;
+			function a(){
+				document.getElementById("a").innerHTML=flag;
+				if(flag){
+					flag=false;
+				}else{
+					flag=true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<a href="index.html">返回</a>
+		<div id="a">hello test</div><br />
+		<button id="button" type="button" onclick="a()">button</button>
+		
+	</body>
+</html>
